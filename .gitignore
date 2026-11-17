@@ -1,0 +1,16 @@
+node_modules
+dist
+
+# Keep environment variables (and secrets) out of version control
+.env
+
+# Generated Prisma clients - recreate with `npx prisma generate`
+/generated/prisma
+/src/generated/prisma
+
+# Local AI editor / tooling artifacts (not part of the API)
+/.agents/
+/.claude/
+/.windsurf/
+/.kombai/
+/skills-lock.json
